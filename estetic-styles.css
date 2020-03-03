@@ -39,6 +39,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-size: 13.5px;
     line-height: 20px;
     color: #000000;
+    margin-top: 75px;
+    width: 100%;
+    position: absolute;
+    background-image: url(line-long.png);
+    background-repeat: no-repeat;
 }
 .photo-lady {
     width: 50%;
