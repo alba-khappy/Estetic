@@ -40,22 +40,77 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 20px;
     color: #000000;
     margin-top: 75px;
-    width: 100%;
+    width: 65%;
     position: absolute;
     background-image: url(line-long.png);
     background-repeat: no-repeat;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.link {
+    margin-right: 20px;
 }
 .photo-lady {
-    width: 50%;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    margin-left: 450px;
-    margin-top: 50px;
-    float: right;
+    width: 40%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+    margin-left: 692px;
+    margin-top: 9px;
 }
 .margin-right {
-    margin-right: 30px;
+    margin-right: 80px;
+    position: absolute;
+    background-image: url(line-long.png);
+    background-repeat: no-repeat;
+    margin-top: 75px;
 }
 .contacts {
+    padding-top: 13px;
+}
+.float-right {
     float: right;
-    margin: 80px 90px 0 0;
+}
+.align-right {
+    text-align: right;
+}
+.vk{
+    width: 20px;
+    height: 20px;
+    background: url("Vk.png") no-repeat center;
+    background-size: contain;
+}
+.whatsapp{
+    width: 20px;
+    height: 20px;
+    background: url("Whatsapp.png") no-repeat center;
+    background-size: contain;
+    margin-left: 12px;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+    background: url("Insta.png")no-repeat center;
+    background-size: contain;
+    margin-left: 12px;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+.margin-text {
+    margin-top: 170px;
+}
+.estetic-st {
+    margin: 196px 1px 30px 328px;
+}
+.text-center {
+    text-align: center;
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+.button-style {
+    background: url("Button.png")no-repeat center;
 }
