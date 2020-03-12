@@ -1,0 +1,92 @@
+.body-background {
+    background: #FFF2F2;
+}
+.fon {
+    width: 100%;
+    height: 100%;
+    background-image: url("version2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.nata {
+    text-align: center;
+    font-family: Arabella ;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 59px;
+    font-size: 100px;
+    letter-spacing: 0.02em;
+    color: white;
+    text-shadow: 0 4.5px 3.75px rgba(0, 0, 0, 0.25);
+    margin: 300px 0;
+}
+.links {
+    font-family: Rounded Mplus 1c Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 75px;
+    width: 65%;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.text-decoration-none {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.text-center {
+    text-align: center;
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+.button-style {
+    text-decoration:none;
+    text-align:center;
+    padding:8px 19px;
+    border:solid 3px #4aaaa5;
+    -webkit-border-radius:23px;
+    -moz-border-radius:23px;
+    border-radius: 23px;
+    font:18px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:#000000;
+    background:#7accc8;
+    -webkit-box-shadow:0 3px 10px #bababa, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 3px 10px #bababa,  inset 0 0 1px #ffffff;
+    box-shadow:0 3px 10px #bababa, inset 0 0 1px #ffffff;
+}
+.text-estetic {
+    font-family: Gabriela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+}
+.text-Nata {
+    font-family: Arabella ;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 59px;
+    font-size: 120px;
+    letter-spacing: 0.02em;
+    color: white;
+    text-shadow: 0 4.5px 3.75px rgba(0, 0, 0, 0.25);
+    margin: 40px 0;
+}
+.text-cosmetology {
+    font-family: Gabriela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: underline;
+}
+.sing-up {
+    margin-bottom: 7px;
+}
