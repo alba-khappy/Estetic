@@ -90,3 +90,12 @@
 .sing-up {
     margin-bottom: 7px;
 }
+////
+
+
+.white-header {
+    width: 303px;
+    height: 27px;
+    background: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
