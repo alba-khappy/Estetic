@@ -99,3 +99,85 @@
     background: white;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+
+
+
+
+
+
+
+
+
+.container-mobile {
+    width: 100%;
+    height: 100%;
+}
+.photo-lady {
+    display: none;
+}
+.white-header {
+    width: 90%;
+    height: 55px;
+    margin: 20px;
+    background: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.mobile-lady {
+    width: 97%;
+    height: 830px;
+    margin-left: 3%;
+    background: url("Mobile-lady.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text-container {
+    width: 60%;
+    height: 230px;
+}
+.burger {
+    width: 28px;
+    height: 28px;
+    background: url("burger.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+.mobile-number {
+    font-family: Gabriela;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 6px;
+}
+.mobile-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.socials-mobile {
+    display: flex;
+    margin-top: 5px;
+}
+.text-Nata-mobile {
+    font-size: 30px;
+    margin: 0 0 0 -10px;
+}
+
+.text-estetic-mobile {
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 36px;
+}
+
+.text-cosmetology-mobile {
+    font-size: 9px;
+    line-height: 10px;
+}
+.button-style-mobile {
+    width: 96px;
+    height: 21px;
+    padding: 0;
+}
+.p-mobile {
+    font-size: 11px;
+}

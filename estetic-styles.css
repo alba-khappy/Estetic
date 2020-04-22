@@ -32,19 +32,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .body-background {
     background: #FFF2F2;
 }
-
 .first-path {
     width: 100%;
     height: 550px;
 }
-
 .line {
     position: absolute;
     width: 100%;
     height: 4.6px;
     margin-top: 75px;
 }
-
 .rectangle {
     width: 65%;
     height: 492.73px;
@@ -54,12 +51,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
     margin-left: -10px;
 }
-
 .flex {
     display: flex;
     justify-content: left;
 }
-
 .links {
     font-family: MPLUSRounded1c-Bold;
     font-style: normal;
@@ -76,11 +71,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     justify-content: center;
     margin-left: -45px;
 }
-
 .link {
     margin-right: 30px;
 }
-
 .text-decoration-none {
     text-decoration: none;
     color: #565454
@@ -98,7 +91,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .photo-lady-tablet {
     display: none;
 }
-
 .contacts-lady {
     width: 100%;
     position: absolute;
@@ -106,7 +98,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-repeat: no-repeat;
     margin-top: 75px;
 }
-
 .contacts {
     font-size: 20px;
     line-height: 36px;
@@ -114,15 +105,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: MPLUSRounded1c-Bold;
     color: #DB6B64;
 }
-
 .all-contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-right: 19%;
 }
-
-
 .location {
     font-family: Gabriela;
     font-style: normal;
@@ -131,19 +119,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 31px;
     color: black;
 }
-
 .icon-location {
     width: 18px;
     height: 18px;
 }
-
 .vk {
     width: 34px;
     height: 34px;
     background: url("Vk.png") no-repeat center;
     background-size: contain;
 }
-
 .whatsapp {
     width: 34px;
     height: 34px;
@@ -151,7 +136,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-size: contain;
     margin-left: 17px;
 }
-
 .insta {
     width: 34px;
     height: 34px;
@@ -159,30 +143,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-size: contain;
     margin-left: 17px;
 }
-
 .socials {
     display: flex;
     padding-top: 5px;
 }
-
 .margin-text {
     margin-top: 150px;
 }
-
 .estetic-st {
     margin: 196px 1px 30px 328px;
 }
-
 .text-center {
     text-align: center;
 }
-
 .button-center {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
 }
-
 .button-style {
     text-decoration: none;
     text-align: center;
@@ -196,12 +174,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 36px;
     color: #000000;
     background: #7accc8;
-    -webkit-box-shadow: 0 3px 10px #bababa, inset 0 0 1px #ffffff;
-    -moz-box-shadow: 0 3px 10px #bababa, inset 0 0 1px #ffffff;
-    box-shadow: 0 3px 10px #bababa, inset 0 0 1px #ffffff;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 3px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 3px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    box-shadow: 0 4px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
-
 .text-estetic {
     font-family: Gabriela;
     font-style: normal;
@@ -210,7 +187,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 31px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25)
 }
-
 .text-Nata {
     font-family: Arabella;
     font-style: normal;
@@ -224,7 +200,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     position: relative;
     width: 110%;
 }
-
 .text-cosmetology {
     font-family: Gabriela;
     font-style: normal;
@@ -233,10 +208,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     line-height: 27px;
     text-decoration-line: underline;
 }
-
 .sing-up {
     margin: 40px 0 10px 0;
 }
+.hide-desktop {
+    display: none;
+}
+
 
 
 /***2****/
@@ -279,10 +257,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .margin-p {
     margin-top: 22px;
-    font-size: 24px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 23px;
 }
-
 .margin-top-p {
     margin-top: 70px;
 }
@@ -302,7 +279,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .container {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 60px;
     display: table;
     clear: both;
 }
@@ -377,7 +354,11 @@ h2 {
     font-size: 24px;
     line-height: 31px;
 }
-
+.margin-p-services {
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 40px;
+}
 .buttons {
     display: flex;
     justify-content: flex-end;
@@ -439,6 +420,9 @@ h2 {
         border-radius: 30px;
         text-align: center;
         box-shadow: none;
+    }
+    .margin-p {
+        font-size: 20px;
     }
 }
 @media (min-width: 734px) and (max-width: 985px) {
@@ -551,6 +535,9 @@ h2 {
     .container {
         margin-top: 0;
     }
+    .margin-p {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 760px) and (max-width: 930px) {
@@ -639,6 +626,10 @@ h2 {
     .margin-sing-up-small {
         margin: 42px 0 42px 0;
     }
+    .margin-p-services {
+        font-size: 18px;
+        line-height: 23px;
+    }
 }
 
 @media (min-width: 720px) and (max-width: 760px) {
@@ -714,99 +705,211 @@ h2 {
     .margin-sing-up-small {
         margin: 42px 0 42px 0;
     }
+    .h2-size {
+        font-size: 20px;
+    }
+    .paddind-div {
+        padding: 40px 27px 0 42px;
+    }
+    .text-main {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 45px;
+    }
+    .margin-p-services {
+        font-size: 18px;
+        line-height: 23px;
+    }
 }
+/* планшет (вертик.) версия */
 
 @media (min-width: 320px) and (max-width: 720px) {
+    .hide-tablet-mobile {
+        display: none
+    }
+    .show-tablet-mobile {
+        display: initial;
+    }
     .photo-lady {
         display: none;
     }
     .white-header {
-        width: 303px;
-        height: 27px;
+        width: 90%;
+        height: 55px;
+        margin: 20px;
         background: white;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0 4px rgba(0, 0, 0, 0.25);
     }
     .burger {
-        width: 28px;
-        height: 28px;
-        background: url("burger.png");
+        width: 56px;
+        height: 56px;
+        background: url("burger-tablet.png");
         background-repeat: no-repeat;
         background-size: contain;
         border: none;
     }
-.mobile-number {
-font-family: Gabriela;
-font-size: 12px;
-line-height: 14px;
-margin-top: 6px;
-}
-.mobile-menu {
-display: flex;
-justify-content: space-around;
-}
-.socials-mobile {
-display: flex;
-margin-top: 5px;
-}
-.mobile-lady {
-width: 311px;
-height: 231px;
-background: url("Mobile-lady.png");
-margin-top: 14px;
-}
-.text-Nata-mobile {
-font-size: 30px;
-margin: 0 0 0 -10px;
-}
-.text-estetic-mobile {
-font-size: 12px;
-line-height: 15px;
-padding-top: 36px;
-}
-.text-container {
-width: 201px;
-height: 230px;
-}
-.text-cosmetology-mobile {
-font-size: 9px;
-line-height: 10px;
-}
-.button-style-mobile {
-width: 96px;
-height: 21px;
-padding: 0;
-}
-.p-mobile {
-font-size: 11px;
+
+    .mobile-number {
+        font-family: Gabriela;
+        font-size: 20px;
+        line-height: 14px;
+        margin-top: 20px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .socials-mobile {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .tablet-vertical-lady {
+        width: 97%;
+        height: 515px;
+        margin-left: 3%;
+        background: url("Tablet-vertical.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .container-tablet {
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-Nata-tablet {
+        font-size: 50px;
+        margin: 15px 0 35px -10px;
+    }
+
+    .text-estetic-tablet {
+        font-size: 20px;
+        line-height: 15px;
+        padding-top: 85px;
+    }
+    .text-container {
+        width: 60%;
+        height: 230px;
+    }
+    .text-cosmetology-tablet {
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .button-style-tablet {
+        width: 135px;
+        height: 43px;
+        padding: 0;
+    }
+    .p-tablet {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .h2-size {
+        font-size: 18px;
+        margin-left: 25px;
+        line-height: 21px;
+    }
+    .paddind-div {
+        padding: 30px 5px 0 20px;
+    }
+    .text-main {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 19px;
+    }
+    .margin-p-services {
+        font-size: 18px;
+        line-height: 23px;
+    }
 }
 
+    /* мобильная версия */
 
-
-
-    @media (min-width: 964px) and (max-width: 1215px) {
-
-        .w-964 {
+    @media (min-width: 320px) and (max-width: 539px) {
+        .hide-tablet-mobile {
+            display: none
+        }
+        .white-header {
+            width: 90%;
+            height: 42px;
+            margin: 20px;
             background: white;
-            width: 231px;
-            height: 252px;
-            border-radius: 30px;
-            text-align: center;
-            box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
-            margin: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0 4px rgba(0, 0, 0, 0.25);
+        }
+        .burger {
+            width: 28px;
+            height: 28px;
+            background: url("burger.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: none;
+            margin-top: 7px;
         }
 
-        .i-964 {
-            background: #FFF2F2;
-            width: 231px;
-            height: 252px;
-            border-radius: 30px;
-            text-align: center;
+        .mobile-number {
+            font-family: Gabriela;
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 14px;
+        }
+
+        .mobile-menu {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .socials-mobile {
+            display: flex;
+            margin-top: 5px;
+        }
+
+        .text-Nata-mobile {
+            font-size: 30px;
+            margin: -15px 0 -15px -10px;
+        }
+
+        .text-estetic-mobile {
+            font-size: 12px;
+            line-height: 15px;
+            padding-top: 36px;
+        }
+
+        .text-cosmetology-mobile {
+            font-size: 9px;
+            line-height: 10px;
+        }
+
+        .button-style-mobile {
+            width: 96px;
+            height: 21px;
+            padding: 0;
+        }
+
+        .p-mobile {
+            font-size: 11px;
+        }
+
+        .button-style-tablet {
+            width: 96px;
+            height: 31px;
+            padding: 0;
+        }
+
+        .p-tablet {
+            font-size: 14px;
+            line-height: 28px;
+        }
+        .tablet-vertical-lady {
+            height: 405px;
+        }
+        .margin-p-services {
+            font-size: 14px;
+            line-height: 15px;
         }
     }
 
 
 
-
-
-
-}
