@@ -370,7 +370,7 @@ h2 {
 
 /*5*/
 .reviews {
-    background: rgb(151, 204, 143, 0.9);
+    background: rgba(151, 204, 143, 0.9);
     margin-right: 108px;
     padding-bottom: 60px;
 }
