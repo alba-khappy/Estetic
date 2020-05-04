@@ -27,10 +27,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     font-family: MPLUSRounded1c;
     src: url("fonts/MPLUSRounded1c-Regular.ttf");
 }
-
-
-.body-background {
+body {
     background: #FFF2F2;
+    background-image: url("bg-leaf.png");
+    background-repeat: no-repeat;
+    background-position:-250px  531px;
 }
 .first-path {
     width: 100%;
@@ -76,7 +77,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 .text-decoration-none {
     text-decoration: none;
-    color: #565454
+    color: #565454;
 }
 .lady-position {
     display: flex;
@@ -179,13 +180,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     box-shadow: 0 4px 10px #6c6c6c, inset 0 0 1px #ffffff;
     text-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
+.button-style:hover{
+    background: #85d8d4;
+    -webkit-box-shadow: 0 5px 10px #fff8f9, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 5px 10px #fff8f9, inset 0 0 1px #ffffff;
+    box-shadow: 0 5px 10px #fff8f9, inset 0 0 1px #ffffff;
+}
+.button-style:active {
+    background: #72c4c0;
+    -webkit-box-shadow: 0 3px 10px #656565, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 3px 10px #656565, inset 0 0 1px #ffffff;
+    box-shadow: 0 4px 10px #656565, inset 0 0 1px #ffffff;
+}
 .text-estetic {
     font-family: Gabriela;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 31px;
-    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25)
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 .text-Nata {
     font-family: Arabella;
@@ -223,7 +236,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     width: 100%;
     height: 100%;
 }
-
 .white-rectangle {
     background: white;
     width: 231px;
@@ -233,22 +245,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
     margin: 10px;
 }
-
 .invisible-rectangle {
-    background: #FFF2F2;
+    background: rgba(255, 242, 242, 0);
     width: 231px;
     height: 252px;
     border-radius: 30px;
     text-align: center;
 }
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -5px;
 }
-
 .margin-advantages {
     margin-top: 20px;
 }
@@ -268,7 +277,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     justify-content: center;
 }
 .margin-sing-up {
-    margin: 71px 0 42px 0;
+    margin: 55px 0 42px 0;
 }
 .go-to-price {
     margin-bottom: 41px;
@@ -283,13 +292,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: table;
     clear: both;
 }
-
 .Photo-1 {
     width: 35%;
     float: left;
     position: absolute;
 }
-
 .Orange {
     margin: 70px 0 0 30px;
     float: right;
@@ -297,7 +304,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     background-color: rgba(228, 95, 86, 0.84);
     padding-bottom: 80px;
 }
-
 h2 {
     font-family: Gabriela;
     color: white;
@@ -307,7 +313,6 @@ h2 {
     font-size: 36px;
     line-height: 30px;
 }
-
 .text-main {
     margin-top: 40px;
     text-align: inherit;
@@ -318,7 +323,6 @@ h2 {
     font-size: 18px;
     line-height: 25px;
 }
-
 .paddind-div {
     padding: 60px 40px 0 115px;
 }
@@ -330,7 +334,6 @@ h2 {
     display: flex;
     justify-content: center;
 }
-
 .header {
     color: white;
     text-align: center;
@@ -342,10 +345,9 @@ h2 {
     width: 841px;
     height: 95px;
     background: #4AAAA5;
-    box-shadow: 0px 2.75405px 6.88513px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
     margin-top: 45px;
 }
-
 .services {
     text-align: center;
     font-family: Gabriela;
@@ -355,8 +357,8 @@ h2 {
     line-height: 31px;
 }
 .margin-p-services {
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 23px;
+    line-height: 24px;
     margin-top: 40px;
 }
 .buttons {
@@ -368,18 +370,24 @@ h2 {
 
 /*5*/
 .reviews {
-    height: 691.07px;
-    background: #A3D39C;
+    background: rgb(151, 204, 143, 0.9);
+    margin-right: 108px;
+    padding-bottom: 60px;
 }
 .padding-h2 {
     font-family: Arabella;
-    font-size: 85px;
-    padding: 60px 0;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 89px;
+    padding: 20px 0;
 }
 .margin-reviews {
-    margin: 84px 0 165px 0;
+    margin: 50px 0 10% 0;
 }
-
+.reviews-text {
+    display: flex;
+    justify-content: space-around;
+}
 .vk-footer {
     width: 50px;
     height: 50px;
@@ -401,8 +409,48 @@ h2 {
 
 
 
+
+/*pop-up*/
+
+.pop-up {
+    width: 100%;
+    max-width: 316px;
+    min-width: 210px;
+    height: 350px;
+    position: absolute;
+    background-color: #A3D39C;
+}
+.cancel {
+    text-align: right;
+    margin:20px 20px 0 0;
+}
+form {
+    margin: 30px;
+}
+.input-form{
+    width: 254px;
+    height: 40px;
+}
+.button-pop-up {
+    display: flex;
+    justify-content: center;
+}
+.pop-up-none {
+   display: none;
+}
+.pop-up-text {
+    font-family: Rounded Mplus 1c Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
 /* Преимущества*/
-@media (min-width: 983px) and (max-width: 1215px) {
+@media (min-width: 986px) and (max-width: 1215px) {
     .w-964 {
         background: white;
         width: 231px;
@@ -414,7 +462,7 @@ h2 {
     }
 
     .i-964 {
-        background: #FFF2F2;
+        background: rgba(255, 242, 242, 0);
         width: 231px;
         height: 252px;
         border-radius: 30px;
@@ -426,7 +474,6 @@ h2 {
     }
 }
 @media (min-width: 734px) and (max-width: 985px) {
-
     .w-734 {
         background: white;
         width: 231px;
@@ -436,9 +483,69 @@ h2 {
         box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
         margin: 10px;
     }
-
     .i-734 {
-        background: #FFF2F2;
+        background: rgba(255, 242, 242, 0);
+        width: 231px;
+        height: 252px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: none;
+    }
+    .margin-p {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .padding-advantages {
+        padding-top: 0;
+    }
+}
+
+    @media (min-width: 320px) and (max-width: 733px) {
+
+        .w-320 {
+            background: white;
+            width: 231px;
+            height: 252px;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
+            margin: 10px;
+        }
+
+        .i-320 {
+            background: #FFF2F2;
+            width: 231px;
+            height: 252px;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: none;
+        }
+    }
+        @media (min-width: 928px) and (max-width: 980px) {
+            .w-980 {
+                background: white;
+                width: 231px;
+                height: 252px;
+                border-radius: 30px;
+                text-align: center;
+                box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
+                margin: 10px;
+            }
+        }
+        @media (min-width: 981px) and (max-width: 2000px) {
+            .i-max {
+                background: rgba(255, 242, 242, 0);
+                width: 231px;
+                height: 252px;
+                border-radius: 30px;
+                text-align: center;
+                box-shadow: none;
+            }
+        }
+@media (min-width: 860px) and (max-width: 929px) {
+    .i-750 {
+        background: rgba(255, 242, 242, 0);
         width: 231px;
         height: 252px;
         border-radius: 30px;
@@ -446,388 +553,460 @@ h2 {
         box-shadow: none;
     }
 }
+    /* Преимущества*/
+    @media (min-width: 760px) and (max-width: 1130px) {
+        .all-contacts {
+            font-size: 18px;
+            padding-right: 5%;
+        }
 
-@media (min-width: 320px) and (max-width:733px) {
+        .photo-lady-tablet {
+            display: none;
+        }
 
-    .w-320 {
-        background: white;
-        width: 231px;
-        height: 252px;
-        border-radius: 30px;
-        text-align: center;
-        box-shadow: 4px 4px 4px #A3D39C, -4px 4px 4px #A3D39C;
-        margin: 10px;
-    }
-    .i-320 {
-        background: #FFF2F2;
-        width: 231px;
-        height: 252px;
-        border-radius: 30px;
-        text-align: center;
-        box-shadow: none;
-    }
-}
-/* Преимущества*/
+        .text-Nata {
+            font-size: 84px;
+        }
 
+        .links {
+            font-size: 18px;
+            line-height: 27px;
+        }
 
+        .text-estetic {
+            font-size: 18px;
+            line-height: 23px;
+        }
 
+        .text-cosmetology {
+            font-size: 12px;
+            line-height: 14px;
+        }
 
+        .button-style {
+            font-size: 19px;
+            line-height: 28px;
+            padding: 7px 16px;
+        }
 
-@media (min-width: 760px) and (max-width: 1130px) {
-    .all-contacts {
-        font-size: 18px;
-        padding-right: 5%;
-    }
-    .photo-lady-tablet {
-        display: none;
-    }
-    .text-Nata {
-        font-size: 84px;
-    }
-    .links {
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .text-estetic {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .text-cosmetology {
-        font-size: 12px;
-        line-height: 14px;
-    }
-    .button-style {
-        font-size: 19px;
-        line-height: 28px;
-        padding: 7px 16px;
-    }
-    .location {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .icon-location {
-        width: 15px;
-        height: 15px;
-    }
-    .contacts {
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .vk {
-        width: 21px;
-        height: 21px;
-    }
-    .whatsapp {
-        width: 21px;
-        height: 21px;
-    }
-    .insta {
-        width: 21px;
-        height: 21px;
-    }
-    .hidden-lady-photo {
-        display: none;
-    }
-    .tablet-lady {
-        width: 219px;
-        height: 195px;
-    }
-    .container {
-        margin-top: 0;
-    }
-    .margin-p {
-        font-size: 20px;
-    }
-}
+        .location {
+            font-size: 18px;
+            line-height: 23px;
+        }
 
-@media (min-width: 760px) and (max-width: 930px) {
-    .rectangle {
-        height: 394.73px;
-    }
-    .photo-lady {
-        display: none;
-    }
-    .photo-lady-tablet {
-        width: 300px;
-        height: 267px;
-        display: initial;
-        margin-left: 448px;
-        margin-top: 30px;
-    }
-    .first-path {
-        height: 465px;
-    }
-    .links {
-        font-size: 16px;
-        line-height: 27px;
-        margin-left: 0;
-    }
-    .link {
-        margin-right: 10px;
-    }
-    .all-contacts {
-        font-size: 18px;
-        padding-right: 5%;
-    }
-    .contacts{
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .location {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .vk {
-        width: 21px;
-        height: 21px;
-    }
-    .whatsapp {
-        width: 21px;
-        height: 21px;
-    }
-    .insta {
-        width: 21px;
-        height: 21px;
-    }
-    .text-estetic {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .text-Nata {
-        font-size: 84px;
-    }
-    .text-cosmetology {
-        font-size: 12px;
-        line-height: 14px;
-    }
-    .text-main {
-        font-size: 14px;
-        line-height: 20px;
-        margin-top: 20px;
-    }
-    .paddind-div {
-        padding: 40px 10px 0 56px;
-    }
-    .h2-size {
-        font-size: 20px;
-    }
-    .Orange {
-        padding-bottom: 40px;
-    }
-    .margin-p {
-        font-size: 18px;
-    }
-    .header {
-        font-size: 50px;
-    }
-    .margin-top-p {
-        margin-top: 25px;
-    }
-    .margin-sing-up-small {
-        margin: 42px 0 42px 0;
-    }
-    .margin-p-services {
-        font-size: 18px;
-        line-height: 23px;
-    }
-}
+        .icon-location {
+            width: 15px;
+            height: 15px;
+        }
 
-@media (min-width: 720px) and (max-width: 760px) {
-    .rectangle {
-        height: 394.73px;
-    }
-    .first-path {
-        width: 100%;
-        height: 465px;
-    }
-    .photo-lady {
-        display: none;
-    }
-    .photo-lady-tablet {
-        width: 300px;
-        height: 267px;
-        display: initial;
-        margin-left: 448px;
-        margin-top: 30px;
-    }
-    .links {
-        font-size: 16px;
-        line-height: 27px;
-        margin-left: 0;
-    }
-    .link {
-        margin-right: 10px;
-    }
-    .all-contacts {
-        font-size: 18px;
-        padding-right: 5%;
-    }
-    .contacts{
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .location {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .vk {
-        width: 21px;
-        height: 21px;
-    }
-    .whatsapp {
-        width: 21px;
-        height: 21px;
-    }
-    .insta {
-        width: 21px;
-        height: 21px;
-    }
-    .text-estetic {
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .text-Nata {
-        font-size: 76px;
-    }
-    .text-cosmetology {
-        font-size: 12px;
-        line-height: 14px;
-    }
-    .margin-p {
-        font-size: 18px;
-    }
-    .header {
-        font-size: 50px;
-    }
-    .margin-top-p {
-        margin-top: 25px;
-    }
-    .margin-sing-up-small {
-        margin: 42px 0 42px 0;
-    }
-    .h2-size {
-        font-size: 20px;
-    }
-    .paddind-div {
-        padding: 40px 27px 0 42px;
-    }
-    .text-main {
-        font-size: 14px;
-        line-height: 20px;
-        padding-left: 45px;
-    }
-    .margin-p-services {
-        font-size: 18px;
-        line-height: 23px;
-    }
-}
-/* планшет (вертик.) версия */
+        .contacts {
+            font-size: 18px;
+            line-height: 27px;
+        }
 
-@media (min-width: 320px) and (max-width: 720px) {
-    .hide-tablet-mobile {
-        display: none
-    }
-    .show-tablet-mobile {
-        display: initial;
-    }
-    .photo-lady {
-        display: none;
-    }
-    .white-header {
-        width: 90%;
-        height: 55px;
-        margin: 20px;
-        background: white;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0 4px rgba(0, 0, 0, 0.25);
-    }
-    .burger {
-        width: 56px;
-        height: 56px;
-        background: url("burger-tablet.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: none;
+        .vk {
+            width: 21px;
+            height: 21px;
+        }
+
+        .whatsapp {
+            width: 21px;
+            height: 21px;
+        }
+
+        .insta {
+            width: 21px;
+            height: 21px;
+        }
+
+        .hidden-lady-photo {
+            display: none;
+        }
+
+        .tablet-lady {
+            width: 219px;
+            height: 195px;
+        }
+
+        .container {
+            margin-top: 0;
+        }
+
+        .margin-p {
+            font-size: 20px;
+        }
+
+        .reviews-sms {
+            width: 200px;
+        }
     }
 
-    .mobile-number {
-        font-family: Gabriela;
-        font-size: 20px;
-        line-height: 14px;
-        margin-top: 20px;
+    @media (min-width: 760px) and (max-width: 930px) {
+        .rectangle {
+            height: 395px;
+        }
+        .photo-lady {
+            display: none;
+        }
+        .photo-lady-tablet {
+            width: 300px;
+            height: 267px;
+            display: initial;
+            margin-left: 448px;
+            margin-top: 30px;
+        }
+        .first-path {
+            height: 465px;
+        }
+        .links {
+            font-size: 16px;
+            line-height: 27px;
+            margin-left: 0;
+        }
+        .link {
+            margin-right: 10px;
+        }
+        .all-contacts {
+            font-size: 18px;
+            padding-right: 5%;
+        }
+        .contacts {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .location {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .vk {
+            width: 21px;
+            height: 21px;
+        }
+        .whatsapp {
+            width: 21px;
+            height: 21px;
+        }
+        .insta {
+            width: 21px;
+            height: 21px;
+        }
+        .text-estetic {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .text-Nata {
+            font-size: 84px;
+        }
+        .text-cosmetology {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .text-main {
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+        .paddind-div {
+            padding: 40px 10px 0 56px;
+        }
+        .h2-size {
+            font-size: 20px;
+        }
+        .white-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .invisible-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .padding-advantages {
+            width: 100px;
+        }
+        .margin-advantages {
+            width: 100px;
+        }
+        .Orange {
+            padding-bottom: 40px;
+        }
+        .margin-p {
+            font-size: 16px;
+        }
+        .header {
+            font-size: 50px;
+        }
+        .margin-top-p {
+            margin-top: 25px;
+        }
+        .margin-sing-up-small {
+            margin: 42px 0 42px 0;
+        }
+        .margin-p-services {
+            font-size: 16px;
+            line-height: 14px;
+        }
+        .reviews-sms {
+            width: 150px;
+        }
+        .padding-h2 {
+            font-size: 50px;
+        }
     }
 
-    .mobile-menu {
-        display: flex;
-        justify-content: space-around;
+    @media (min-width: 720px) and (max-width: 760px) {
+        .rectangle {
+            height: 395px;
+        }
+        header {
+            font-size: 50px;
+        }
+        .first-path {
+            width: 100%;
+            height: 465px;
+        }
+        .photo-lady {
+            display: none;
+        }
+        .photo-lady-tablet {
+            width: 300px;
+            height: 267px;
+            display: initial;
+            margin-left: 448px;
+            margin-top: 30px;
+        }
+        .links {
+            font-size: 16px;
+            line-height: 27px;
+            margin-left: 0;
+        }
+        .link {
+            margin-right: 10px;
+        }
+        .all-contacts {
+            font-size: 18px;
+            padding-right: 5%;
+        }
+        .contacts {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .location {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .vk {
+            width: 21px;
+            height: 21px;
+        }
+        .whatsapp {
+            width: 21px;
+            height: 21px;
+        }
+        .insta {
+            width: 21px;
+            height: 21px;
+        }
+        .text-estetic {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .text-Nata {
+            font-size: 76px;
+        }
+        .text-cosmetology {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .margin-p {
+            font-size: 16px;
+        }
+        .header {
+            font-size: 50px;
+        }
+        .margin-top-p {
+            margin-top: 25px;
+        }
+        .margin-sing-up-small {
+            margin: 42px 0 42px 0;
+        }
+        .h2-size {
+            font-size: 20px;
+        }
+        .paddind-div {
+            padding: 40px 27px 0 42px;
+        }
+        .text-main {
+            font-size: 14px;
+            line-height: 20px;
+            padding-left: 45px;
+        }
+        .margin-p-services {
+            font-size: 18px;
+            line-height: 18px;
+        }
+        .reviews-text {
+            flex-wrap: wrap;
+        }
+        .reviews-sms {
+            margin-top: 20px;
+        }
+        .white-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .invisible-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .padding-advantages {
+            width: 100px;
+        }
+        .margin-advantages {
+            width: 100px;
+        }
+        .padding-h2 {
+            font-size: 50px;
+        }
+        .button-style {
+            font-size: 19px;
+            line-height: 28px;
+            padding: 7px 16px;
+        }
     }
-
-    .socials-mobile {
-        display: flex;
-        margin-top: 10px;
+    /* планшет (вертик.) версия */
+    @media (min-width: 320px) and (max-width: 720px) {
+        .hide-tablet-mobile {
+            display: none
+        }
+        .show-tablet-mobile {
+            display: initial;
+        }
+        .photo-lady {
+            display: none;
+        }
+        .header {
+            font-size: 50px;
+        }
+        .white-header {
+            width: 90%;
+            height: 55px;
+            margin: 20px;
+            background: white;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0 4px rgba(0, 0, 0, 0.25);
+        }
+        .burger {
+            width: 56px;
+            height: 56px;
+            background: url("burger-tablet.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: none;
+        }
+        .mobile-number {
+            font-family: Gabriela;
+            font-size: 20px;
+            line-height: 14px;
+            margin-top: 20px;
+        }
+        .mobile-menu {
+            display: flex;
+            justify-content: space-around;
+        }
+        .socials-mobile {
+            display: flex;
+            margin-top: 10px;
+        }
+        .tablet-vertical-lady {
+            width: 97%;
+            height: 515px;
+            margin-left: 3%;
+            background: url("Tablet-vertical.png") no-repeat;
+            background-size: contain;
+        }
+        .container-tablet {
+            width: 100%;
+            height: 100%;
+        }
+        .text-Nata-tablet {
+            font-size: 50px;
+            margin: 15px 0 35px -10px;
+        }
+        .text-estetic-tablet {
+            font-size: 20px;
+            line-height: 15px;
+            padding-top: 85px;
+        }
+        .text-container {
+            width: 60%;
+            height: 230px;
+        }
+        .text-cosmetology-tablet {
+            font-size: 17px;
+            line-height: 10px;
+        }
+        .button-style-tablet {
+            width: 135px;
+            height: 43px;
+            padding: 0;
+        }
+        .p-tablet {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .h2-size {
+            font-size: 18px;
+            margin-left: 25px;
+            line-height: 21px;
+        }
+        .paddind-div {
+            padding: 30px 5px 0 20px;
+        }
+        .text-main {
+            font-size: 14px;
+            line-height: 20px;
+            padding-left: 19px;
+        }
+        .margin-p-services {
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .reviews-text {
+            flex-wrap: wrap;
+        }
+        .reviews-sms {
+            margin-top: 20px;
+        }
+        .white-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .invisible-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .padding-advantages {
+            width: 100px;
+        }
+        .margin-advantages {
+            width: 100px;
+        }
+        .margin-p {
+            font-size: 16px;
+        }
+        .padding-h2 {
+            font-size: 50px;
+        }
+        .margin-sing-up-small {
+            margin: 42px 0 42px 0;
+        }
+        .button-style {
+            font-size: 19px;
+            line-height: 28px;
+            padding: 7px 16px;
+        }
     }
-
-    .tablet-vertical-lady {
-        width: 97%;
-        height: 515px;
-        margin-left: 3%;
-        background: url("Tablet-vertical.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    .container-tablet {
-        width: 100%;
-        height: 100%;
-    }
-
-    .text-Nata-tablet {
-        font-size: 50px;
-        margin: 15px 0 35px -10px;
-    }
-
-    .text-estetic-tablet {
-        font-size: 20px;
-        line-height: 15px;
-        padding-top: 85px;
-    }
-    .text-container {
-        width: 60%;
-        height: 230px;
-    }
-    .text-cosmetology-tablet {
-        font-size: 17px;
-        line-height: 10px;
-    }
-    .button-style-tablet {
-        width: 135px;
-        height: 43px;
-        padding: 0;
-    }
-    .p-tablet {
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .h2-size {
-        font-size: 18px;
-        margin-left: 25px;
-        line-height: 21px;
-    }
-    .paddind-div {
-        padding: 30px 5px 0 20px;
-    }
-    .text-main {
-        font-size: 14px;
-        line-height: 20px;
-        padding-left: 19px;
-    }
-    .margin-p-services {
-        font-size: 18px;
-        line-height: 23px;
-    }
-}
 
     /* мобильная версия */
-
     @media (min-width: 320px) and (max-width: 539px) {
         .hide-tablet-mobile {
             display: none
@@ -848,56 +1027,46 @@ h2 {
             border: none;
             margin-top: 7px;
         }
-
         .mobile-number {
             font-family: Gabriela;
             font-size: 12px;
             line-height: 14px;
             margin-top: 14px;
         }
-
         .mobile-menu {
             display: flex;
             justify-content: space-around;
         }
-
         .socials-mobile {
             display: flex;
             margin-top: 5px;
         }
-
         .text-Nata-mobile {
             font-size: 30px;
             margin: -15px 0 -15px -10px;
         }
-
         .text-estetic-mobile {
             font-size: 12px;
             line-height: 15px;
             padding-top: 36px;
         }
-
         .text-cosmetology-mobile {
             font-size: 9px;
             line-height: 10px;
         }
-
         .button-style-mobile {
             width: 96px;
             height: 21px;
             padding: 0;
         }
-
         .p-mobile {
             font-size: 11px;
         }
-
         .button-style-tablet {
             width: 96px;
             height: 31px;
             padding: 0;
         }
-
         .p-tablet {
             font-size: 14px;
             line-height: 28px;
@@ -909,7 +1078,32 @@ h2 {
             font-size: 14px;
             line-height: 15px;
         }
+        .white-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .invisible-rectangle {
+            width: 200px;
+            height: 220px;
+        }
+        .padding-advantages {
+            width: 100px;
+        }
+        .margin-advantages {
+            width: 100px;
+        }
+        .margin-p {
+            font-size: 16px;
+        }
+        .header {
+            font-size: 50px;
+        }
+        .padding-h2 {
+            font-size: 50px;
+        }
+        .margin-sing-up-small {
+            margin: 42px 0 42px 0;
+        }
     }
-
 
 

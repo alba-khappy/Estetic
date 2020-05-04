@@ -1,0 +1,107 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+@font-face {
+    font-family: Arabella;
+    src: url("fonts/Arabella.ttf");
+}
+@font-face {
+    font-family: MPLUSRounded1c-Bold;
+    src: url("fonts/MPLUSRounded1c-Bold.ttf");
+}
+@font-face {
+    font-family: MPLUSRounded1c;
+    src: url("fonts/MPLUSRounded1c-Regular.ttf");
+}
+
+
+body {
+    background: linear-gradient(180deg, #F6FBD9 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(180deg, #7ACCC8 0%, rgba(122, 204, 200, 0) 100%);
+    background-image: url("Bg-leaf-small.png");
+    background-repeat: no-repeat;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header {
+    text-align: center;
+    font-family: Arabella;
+    font-weight: 500;
+    font-size: 53px;
+    line-height: 64px;
+}
+.sections {
+    background: rgba(163, 211, 156, 0.8);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    margin:25px 10px  15px 10px;
+    padding:25px 15px;
+    font-family: Gabriela;
+    font-size: 16px;
+    line-height: 30px;
+}
+.text-right {
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}
+.margin-table {
+    margin: 30px;
+}
+.go-back {
+    position: absolute;
+    margin: 20px 10px 0px 33px;
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.button-style {
+    text-decoration: none;
+    text-align: center;
+    padding: 9px 22px;
+    border: solid 3px rgba(163, 211, 156, 0.8);
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    border-radius: 30px;
+    font-weight: 500;
+    font: 24px MPLUSRounded1c, sans-serif;
+    line-height: 36px;
+    color: #000000;
+    background: #7accc8;
+    -webkit-box-shadow: 0 3px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    -moz-box-shadow: 0 3px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    box-shadow: 0 4px 10px #6c6c6c, inset 0 0 1px #ffffff;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+.button-style-tablet {
+    width: 135px;
+    height: 43px;
+    padding: 0;
+}
+.sing-up{
+    margin: 40px 0 10px 0;
+}
+.p-tablet{
+    font-size: 18px;
+    line-height: 28px;
+}
