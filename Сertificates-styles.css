@@ -57,6 +57,7 @@ section {
     font-family: Gabriela;
     font-size: 16px;
     line-height: 30px;
+    overflow: hidden;
 }
 .leaf {
     width: 1268px;
@@ -75,6 +76,9 @@ section {
 }
 .rotate-btn {
     transform: rotate(180deg);
+}
+button {
+    outline: none;
 }
 .button-center {
     display: flex;

@@ -35,6 +35,9 @@ body {
     background-image: url("Bg-leaf-small.png");
     background-repeat: no-repeat;
 }
+button {
+    outline: none;
+}
 section {
     display: flex;
     justify-content: space-around;
@@ -104,4 +107,18 @@ header {
 .p-tablet{
     font-size: 18px;
     line-height: 28px;
+}
+@media (min-width: 200px) and (max-width: 700px) {
+    .sections {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .go-back {
+        width: 50px;
+        margin: 5px 10px 0px 12px;
+    }
+    header {
+        font-size: 45px;
+        line-height: 52px;
+    }
 }
