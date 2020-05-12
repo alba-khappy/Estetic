@@ -49,33 +49,48 @@ header {
 }
 section {
     background: rgba(74, 170, 165, 0.9);
+    width: 80%;
+    height: 558px;
+    overflow: hidden;
     border-radius: 10px;
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    padding:25px 15px;
+    padding-bottom:25px;
     font-family: Gabriela;
     font-size: 16px;
     line-height: 30px;
     overflow: hidden;
 }
+.picture {
+    width: 230px;
+    height: 330px;
+}
+section>div>img {
+    margin-bottom: 45px;
+}
 .leaf {
     width: 1268px;
     height: 855px;
 }
-.flex-center {
+.flex-space-around {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 5px;
     margin-bottom: 5px;
+    top: -555px;
+    position: relative;
 }
-.btn-next-certificate {
+.flex-center {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.rotate-btn {
-    transform: rotate(180deg);
+.rotate-btn-up {
+    transform: rotate(-90deg);
+}
+.rotate-btn-down {
+    transform: rotate(90deg);
+    background-color: rgba(74, 170, 165,0);
+    border: none;
 }
 button {
     outline: none;
@@ -119,11 +134,20 @@ section>div>button {
     background-color: rgba(74, 170, 165,0);
     border: none;
 }
-@media (min-width: 320px) and (max-width: 890px) {
-    img {
-        margin: 20px 0 20px 0;
-    }
-    .btn-next-certificate {
-        display: none;
+.btn-next-certificate-down {
+    margin-top: -44px;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 220px) and (max-width: 700px) {
+    header {
+          font-size: 43px;
+          line-height: 43px;
+          margin-bottom: 24px;
+          margin-top: 20px;
+      }
+    .go-back {
+        width: 40px;
+        margin: 0 0 0 20px;
     }
 }

@@ -75,6 +75,7 @@ button {
     display: flex;
     justify-content: center;
     margin-left: -45px;
+    z-index: 100;
 }
 .link {
     margin-right: 30px;
@@ -425,18 +426,52 @@ h2 {
 
 
 /*pop-up*/
-
 .pop-up {
+    background-color: rgba(0, 0, 0, 0.71);
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 316px;
-    min-width: 210px;
-    height: 350px;
-    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.form {
+    width: 315px;
     background-color: #A3D39C;
+}
+.pop-up.show-popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up .pop-up-part2 {
+    display: none;
+}
+.pop-up.show-part2 .pop-up-part2 {
+    display: block;
+}
+.pop-up.show-part2 .pop-up-part1 {
+    display: none;
 }
 .cancel {
     text-align: right;
     margin:20px 20px 0 0;
+}
+.close-popup {
+    background-image: url("cancel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #A3D39C;
+    border: none;
+    outline: none;
 }
 form {
     margin: 30px;
@@ -1117,6 +1152,18 @@ form {
         }
         .margin-sing-up-small {
             margin: 42px 0 42px 0;
+        }
+        .insta-footer {
+            width: 34px;
+            height: 34px;
+        }
+        .whatsapp-footer {
+            width: 34px;
+            height: 34px;
+        }
+        .vk-footer {
+            width: 34px;
+            height: 34px;
         }
     }
 
