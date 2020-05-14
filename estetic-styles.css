@@ -30,7 +30,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
     background: #FFF2F2;
-    background-image: url("bg-leaf.png");
+    background-image: url("pictures/bg-leaf.png");
     background-repeat: no-repeat;
     background-position:-250px  531px;
 }
@@ -50,7 +50,7 @@ button {
 .rectangle {
     width: 65%;
     height: 492.73px;
-    background-image: url("Rectangle-line.png");
+    background-image: url("pictures/Rectangle-line.png");
     background-repeat: no-repeat;
     position: absolute;
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
@@ -69,7 +69,7 @@ button {
     margin-top: 75px;
     width: 65%;
     position: absolute;
-    background-image: url(line-long.png);
+    background-image: url(pictures/line-long.png);
     background-repeat: repeat-x;
     padding-top: 5px;
     display: flex;
@@ -100,7 +100,7 @@ button {
 .contacts-lady {
     width: 100%;
     position: absolute;
-    background-image: url(line-long.png);
+    background-image: url(pictures/line-long.png);
     background-repeat: no-repeat;
     margin-top: 75px;
 }
@@ -132,20 +132,20 @@ button {
 .vk {
     width: 34px;
     height: 34px;
-    background: url("Vk.png") no-repeat center;
+    background: url("pictures/Vk.png") no-repeat center;
     background-size: contain;
 }
 .whatsapp {
     width: 34px;
     height: 34px;
-    background: url("Whatsapp.png") no-repeat center;
+    background: url("pictures/Whatsapp.png") no-repeat center;
     background-size: contain;
     margin-left: 17px;
 }
 .insta {
     width: 34px;
     height: 34px;
-    background: url("Insta.png") no-repeat center;
+    background: url("pictures/Insta.png") no-repeat center;
     background-size: contain;
     margin-left: 17px;
 }
@@ -406,19 +406,19 @@ h2 {
 .vk-footer {
     width: 50px;
     height: 50px;
-    background: url("Vk.png") no-repeat center;
+    background: url("pictures/Vk.png") no-repeat center;
     background-size: contain;
 }
 .whatsapp-footer {
     width: 50px;
     height: 50px;
-    background: url("Whatsapp.png") no-repeat center;
+    background: url("pictures/Whatsapp.png") no-repeat center;
     background-size: contain;
 }
 .insta-footer {
     width: 50px;
     height: 50px;
-    background: url("Insta.png") no-repeat center;
+    background: url("pictures/Insta.png") no-repeat center;
     background-size: contain;
 }
 
@@ -459,7 +459,7 @@ h2 {
     margin:20px 20px 0 0;
 }
 .close-popup {
-    background-image: url("cancel.png");
+    background-image: url("pictures/cancel.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #A3D39C;
@@ -939,7 +939,7 @@ form {
         .burger {
             width: 56px;
             height: 56px;
-            background: url("burger-tablet.png");
+            background: url("pictures/burger-tablet.png");
             background-repeat: no-repeat;
             background-size: contain;
             border: none;
@@ -962,7 +962,7 @@ form {
             width: 97%;
             height: 515px;
             margin-left: 3%;
-            background: url("Tablet-vertical.png") no-repeat;
+            background: url("pictures/Tablet-vertical.png") no-repeat;
             background-size: contain;
         }
         .container-tablet {
@@ -1063,7 +1063,7 @@ form {
         .burger {
             width: 28px;
             height: 28px;
-            background: url("burger.png");
+            background: url("pictures/burger.png");
             background-repeat: no-repeat;
             background-size: contain;
             border: none;

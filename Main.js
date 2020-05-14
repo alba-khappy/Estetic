@@ -12,6 +12,15 @@ document.getElementsByClassName('close-popup')[0].addEventListener('click', func
     popup.classList.remove('show-popup');
 });
 
+//pop up sign up
+document.querySelectorAll('.show-call-me').forEach(function (x) {
+    x.addEventListener('click', function () {
+        var popup = document.getElementsByClassName('pop-up')[0];
+        popup.classList.add('show-popup');
+    })
+});
+
+
 // send email
 // document.getElementsByClassName('input-sent')[0].addEventListener('click', function () {
 //     // call rest to send email
