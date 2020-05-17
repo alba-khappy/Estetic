@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="Reviews-styles.css" type="text/css"/>
+    <link rel="stylesheet" href="general.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Gabriela&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Reviews</title>
@@ -13,62 +14,72 @@
     </a>
     <header>Отзывы </header>
     <section>
+        <div class="flex-center">
+            <button class="rotate-btn-up margin-btn">
+                <img src="pictures/next-certificate.png">
+            </button>
+        </div>
         <div class="reviews-flex">
-            <div>
             <img src="pictures/rev1.png">
-            </div>
-            <div>
             <img src="pictures/rev2.png">
-            </div>
-            <div>
             <img src="pictures/rev3.png">
-            </div>
-            <div>
-                <img src="pictures/rev4.png">
-            </div>
-            <div>
-                <img src="pictures/rev5.png">
-            </div>
-            <div>
-                <img src="pictures/rev6.png">
-            </div>
-            <div>
-                <img src="pictures/rev7.png">
-            </div>
-            <div>
-                <img src="pictures/rev8.png">
-            </div>
-            <div>
-                <img src="pictures/rev9.png">
-            </div>
-            <div>
-                <img src="pictures/rev10.png">
-            </div>
-            <div>
-                <img src="pictures/rev11.png">
-            </div>
-            <div>
-                <img src="pictures/rev12.png">
-            </div>
-            <div>
-                <img src="pictures/rev13.png">
-            </div>
+            <img src="pictures/rev4.png">
+            <img src="pictures/rev5.png">
+            <img src="pictures/rev6.png">
+            <img src="pictures/rev7.png">
+            <img src="pictures/rev8.png">
+            <img src="pictures/rev9.png">
+            <img src="pictures/rev10.png">
+            <img src="pictures/rev11.png">
+            <img src="pictures/rev12.png">
+            <img src="pictures/rev13.png">
         </div>
         <div class="button-next">
-            <button class="next-review">
+            <button class="next-review margin-btn-down">
                 <img src="pictures/next-certificate.png">
             </button>
         </div>
     </section>
 </div>
     <footer>
-        <div class="button-center">
-            <button class="button-style button-style-tablet sing-up">
+        <div class="button-center margin-sing-up-small">
+            <button class="button-style button-style-tablet sing-up show-call-me">
                 <p class="p-tablet">Записаться
                 </p>
             </button>
         </div>
     </footer>
+<div class="pop-up">
+    <div class="form">
+        <div class="cancel">
+            <input type="button" name="submit" value="" class="close-popup">
+        </div>
+        <div class="pop-up-part1">
+            <div>
+                <form>
+                    <label>
+                        <input class="input-form" type="text" name="firstname" placeholder="Ваше имя">
+                    </label> <br> <br>
+                    <label>
+                        <input class="input-form" type="text" name="phonenumber" placeholder="+7(9_ _)_ _ _-_ _-_ _">
+                    </label> <br> <br>
+                    <label>
+                        <input class="input-form" type="text" name="message" placeholder="Сообщение">
+                    </label> <br> <br>
+                    <div class="button-pop-up">
+                        <input class="button-style" id="confirm-call-me" type="button" name="submit" value="Записаться">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="pop-up-part2 pop-up-none">
+            <p class="pop-up-text">
+                Ваша заявка принята! <br> Мы скоро с Вами свяжемся.
+            </p>
+        </div>
+    </div>
 </div>
 </body>
+<script src="Reviews.js" type="text/javascript"></script>
+<script src="general.js" type="text/javascript"></script>
 </html>

@@ -1,5 +1,5 @@
 document.getElementsByClassName('rotate-btn-up')[0].addEventListener('click', function () {
-    var canvas = document.getElementsByClassName('flex-space-around')[0];
+    var canvas = document.getElementsByClassName('reviews-flex')[0];
     var top = +canvas.offsetTop;
     if (
         (canvas.offsetWidth >= 330*6) ||
@@ -13,8 +13,8 @@ document.getElementsByClassName('rotate-btn-up')[0].addEventListener('click', fu
     canvas.style.top = top + 'px';
 });
 
-document.getElementsByClassName('rotate-btn-down')[0].addEventListener('click', function () {
-    var canvas = document.getElementsByClassName('flex-space-around')[0];
+document.getElementsByClassName('next-review')[0].addEventListener('click', function () {
+    var canvas = document.getElementsByClassName('reviews-flex')[0];
     var top = +canvas.offsetTop;
     if (top > 30) {
         return
@@ -24,7 +24,6 @@ document.getElementsByClassName('rotate-btn-down')[0].addEventListener('click', 
 });
 
 window.addEventListener('resize', function () {
-    document.getElementsByClassName('flex-space-around')[0].style.top = '0';
+    document.getElementsByClassName('reviews-flex')[0].style.top = '0';
 });
-
 

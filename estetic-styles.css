@@ -425,69 +425,6 @@ h2 {
 
 
 
-/*pop-up*/
-.pop-up {
-    background-color: rgba(0, 0, 0, 0.71);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-}
-.form {
-    width: 315px;
-    background-color: #A3D39C;
-    background-image: url(pictures/form-bg.png);
-}
-.pop-up.show-popup {
-    display: flex;
-}
-.pop-up.show-part2 .pop-up-part2 {
-    display: block;
-}
-.pop-up.show-part2 .pop-up-part1 {
-    display: none;
-}
-.cancel {
-    text-align: right;
-    margin:20px 20px 0 0;
-}
-.close-popup {
-    background-image: url("pictures/cancel.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #A3D39C;
-    border: none;
-    outline: none;
-}
-form {
-    margin: 30px;
-}
-.input-form{
-    width: 254px;
-    height: 40px;
-}
-.button-pop-up {
-    display: flex;
-    justify-content: center;
-}
-.pop-up-none {
-   display: none;
-}
-.pop-up-text {
-    font-family: Rounded Mplus 1c Bold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 27px;
-    text-align: center;
-    padding: 50px 0 90px 0 ;
-    color: #FFFFFF;
-}
 
 /* Преимущества*/
 @media (min-width: 986px) and (max-width: 1215px) {
@@ -779,7 +716,7 @@ form {
             margin-top: 25px;
         }
         .margin-sing-up-small {
-            margin: 42px 0 42px 0;
+            margin-bottom: 40px;
         }
         .margin-p-services {
             font-size: 16px;
@@ -945,9 +882,13 @@ form {
         .burger-menu {
             width: 265px;
             background-color: #7ACCC8;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 0 0 10px 10px;
             position: absolute;
             margin-top: 22px;
             margin-left: 35px;
+            opacity: 1;
+            transition: 300ms ease-in;
         }
         .black-line {
             width: 150px;
@@ -961,6 +902,9 @@ form {
         }
         .part-of-menu {
             margin: 10px;
+        }
+        .close-burger-menu{
+            opacity: 0;
         }
         .line-height {
             line-height: 23px;
@@ -1074,12 +1018,18 @@ form {
         .hide-tablet-mobile {
             display: none
         }
+        .tablet-vertical-lady{
+            height: 300px;
+        }
         .white-header {
             width: 90%;
             height: 42px;
             margin: 20px;
             background: white;
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px 0 4px rgba(0, 0, 0, 0.25);
+        }
+        .mobile-div-mgn {
+            margin-top: 10%;
         }
         .burger {
             width: 28px;
@@ -1116,8 +1066,8 @@ form {
             margin-top: 5px;
         }
         .text-Nata-mobile {
-            font-size: 30px;
-            margin: -15px 0 -15px -10px;
+            font-size: 32px;
+            margin: -15px 0 -15px 2px;
         }
         .text-estetic-mobile {
             font-size: 12px;
@@ -1125,7 +1075,7 @@ form {
             padding-top: 36px;
         }
         .text-cosmetology-mobile {
-            font-size: 9px;
+            font-size: 13px;
             line-height: 10px;
         }
         .button-style-mobile {
@@ -1144,9 +1094,6 @@ form {
         .p-tablet {
             font-size: 14px;
             line-height: 28px;
-        }
-        .tablet-vertical-lady {
-            height: 405px;
         }
         .margin-p-services {
             font-size: 14px;
@@ -1176,7 +1123,7 @@ form {
             font-size: 50px;
         }
         .margin-sing-up-small {
-            margin: 42px 0 42px 0;
+            margin: 2px 0 42px 0;
         }
         .insta-footer {
             width: 34px;
