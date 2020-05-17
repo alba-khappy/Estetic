@@ -441,12 +441,10 @@ h2 {
 .form {
     width: 315px;
     background-color: #A3D39C;
+    background-image: url(pictures/form-bg.png);
 }
 .pop-up.show-popup {
     display: flex;
-}
-.pop-up .pop-up-part2 {
-    display: none;
 }
 .pop-up.show-part2 .pop-up-part2 {
     display: block;
@@ -487,7 +485,7 @@ form {
     font-size: 16px;
     line-height: 27px;
     text-align: center;
-    margin-top: 100px;
+    padding: 50px 0 90px 0 ;
     color: #FFFFFF;
 }
 
@@ -944,6 +942,29 @@ form {
             background-size: contain;
             border: none;
         }
+        .burger-menu {
+            width: 265px;
+            background-color: #7ACCC8;
+            position: absolute;
+            margin-top: 22px;
+            margin-left: 35px;
+        }
+        .black-line {
+            width: 150px;
+            height: 0;
+            border: 1px solid #000000;
+            margin: 0 auto;
+        }
+        .burger-links {
+            font-family: MPLUSRounded1c-Bold;
+            font-size: 23px;
+        }
+        .part-of-menu {
+            margin: 10px;
+        }
+        .line-height {
+            line-height: 23px;
+        }
         .mobile-number {
             font-family: Gabriela;
             font-size: 20px;
@@ -1068,6 +1089,17 @@ form {
             background-size: contain;
             border: none;
             margin-top: 7px;
+        }
+        .burger-menu {
+            width: 200px;
+            margin-top: 11px;
+            margin-left: 24px;
+        }
+        .burger-links{
+            font-size: 14px;
+        }
+        .part-of-menu {
+            margin: 7px;
         }
         .mobile-number {
             font-family: Gabriela;

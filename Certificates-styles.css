@@ -77,12 +77,14 @@ section>div>img {
     flex-wrap: wrap;
     margin-top: 5px;
     margin-bottom: 5px;
-    top: -555px;
     position: relative;
+    transition: top 200ms;
 }
 .flex-center {
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 6;
 }
 .rotate-btn-up {
     transform: rotate(-90deg);
@@ -91,6 +93,12 @@ section>div>img {
     transform: rotate(90deg);
     background-color: rgba(74, 170, 165,0);
     border: none;
+}
+
+@media (min-width: 2475px) {
+    .rotate-btn-up, .rotate-btn-down {
+        visibility: hidden;
+    }
 }
 button {
     outline: none;
@@ -138,6 +146,8 @@ section>div>button {
     margin-top: -44px;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 6;
 }
 @media (min-width: 220px) and (max-width: 700px) {
     header {
