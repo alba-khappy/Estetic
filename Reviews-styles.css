@@ -69,6 +69,7 @@ section {
     line-height: 30px;
     overflow: hidden;
     height: 460px;
+    position: relative;
 }
 .reviews-flex {
     width: 100%;
@@ -78,6 +79,7 @@ section {
     flex-wrap: wrap;
     position: relative;
     transition: top 200ms;
+    top: 0;
 }
 .btn-next-certificate {
     display: flex;
