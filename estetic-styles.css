@@ -980,6 +980,9 @@ h2 {
         .reviews-text {
             flex-wrap: wrap;
         }
+        .reviews {
+            margin-right:0;
+        }
         .reviews-sms {
             margin-top: 20px;
         }
@@ -1004,7 +1007,7 @@ h2 {
             font-size: 50px;
         }
         .margin-sing-up-small {
-            margin: 42px 0 42px 0;
+            margin: 5px 0 42px 0;
         }
         .button-style {
             font-size: 19px;
@@ -1067,7 +1070,7 @@ h2 {
         }
         .text-Nata-mobile {
             font-size: 32px;
-            margin: -15px 0 -15px 2px;
+            margin: -48px 0 -17px -15px;
         }
         .text-estetic-mobile {
             font-size: 12px;
@@ -1093,7 +1096,7 @@ h2 {
         }
         .p-tablet {
             font-size: 14px;
-            line-height: 28px;
+            line-height: 20px;
         }
         .margin-p-services {
             font-size: 14px;
@@ -1110,6 +1113,9 @@ h2 {
         .padding-advantages {
             width: 100px;
         }
+        .reviews {
+            margin-right:0;
+        }
         .margin-advantages {
             width: 100px;
         }
@@ -1123,7 +1129,7 @@ h2 {
             font-size: 50px;
         }
         .margin-sing-up-small {
-            margin: 2px 0 42px 0;
+            margin-bottom: 42px;
         }
         .insta-footer {
             width: 34px;
