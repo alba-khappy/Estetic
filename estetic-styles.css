@@ -1047,6 +1047,7 @@ h2 {
             width: 200px;
             margin-top: 11px;
             margin-left: 24px;
+            z-index: 5;
         }
         .burger-links{
             font-size: 14px;
