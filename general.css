@@ -12,7 +12,7 @@
 }
 .form {
     width: 315px;
-    background-color: #A3D39C;
+    background-color: #B6E3D3;
     background-image: url(pictures/form-bg.png);
 }
 .pop-up.show-popup {
@@ -32,7 +32,7 @@
     background-image: url("pictures/cancel.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #A3D39C;
+    background-color: #B6E3D3;
     border: none;
     outline: none;
 }

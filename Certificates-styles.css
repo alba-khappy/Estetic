@@ -30,8 +30,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 body {
-    background: linear-gradient(180deg, #F6FBD9 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #7ACCC8 0%, rgba(122, 204, 200, 0) 100%);
+    background: rgb(255,242,242);
     background-image: url("pictures/Bg-leaf-small.png");
     background-repeat: no-repeat;
 }
@@ -48,7 +47,7 @@ header {
     margin-bottom: 30px;
 }
 section {
-    background: rgba(74, 170, 165, 0.9);
+    background: #B6E3D3;
     width: 80%;
     height: 558px;
     overflow: hidden;

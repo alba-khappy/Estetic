@@ -30,25 +30,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 
 body {
-    background: linear-gradient(180deg, #F6FBD9 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(180deg, #7ACCC8 0%, rgba(122, 204, 200, 0) 100%);
+    background: rgb(255,242,242);
     background-image: url("pictures/Bg-leaf-small.png");
     background-repeat: no-repeat;
 }
+
 button {
     outline: none;
 }
+
 .margin-btn {
     margin-top: -16px;
     margin-bottom: 7px;
 }
+
 .margin-btn-down {
     margin-top: -17px;
 }
+
 .go-back {
     position: absolute;
     margin: 20px 10px 0 33px;
 }
+
 header {
     text-align: center;
     font-family: Arabella;
@@ -57,8 +61,9 @@ header {
     line-height: 64px;
     margin-bottom: 30px;
 }
+
 section {
-    background: rgba(74, 170, 165, 0.9);
+    background: #B6E3D3;
     border-radius: 10px;
     text-align: center;
     width: 80%;
@@ -71,6 +76,7 @@ section {
     height: 460px;
     position: relative;
 }
+
 .reviews-flex {
     width: 100%;
     height: 390px;
@@ -81,6 +87,7 @@ section {
     transition: top 200ms;
     top: 0;
 }
+
 .btn-next-certificate {
     display: flex;
     justify-content: space-between;
