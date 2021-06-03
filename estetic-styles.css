@@ -31,7 +31,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     background: #FFF2F2;
-    background-image: url("pictures/bg-leaf.png");
+    background-image: url("pictures/bg-leaf.webp");
     background-repeat: no-repeat;
     background-position: -250px 531px;
 }
@@ -492,6 +492,7 @@ h2 {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    text-decoration: none;
 }
 
 
