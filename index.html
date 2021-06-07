@@ -75,7 +75,6 @@
                 </div>
             </div>
 
-            <img src="./favicon.png" class="favicon" alt="favicon">
             <img src="./pictures/Nata.png" class="first-path-img" alt="photo-girl">
 
             <div class="all-contacts">
@@ -372,29 +371,25 @@
 
         var myMap = new ymaps.Map("map", {
             center: [54.513809, 36.264395],
-            zoom: 7
+            zoom: 14
         }),
 
-            myGeoObject = new ymaps.GeoObject({
-                geometry: {
-                    type: "Point",
-                    coordinates: [54.513809, 36.264395]
-                }
-            });
+            // myGeoObject = new ymaps.GeoObject({
+            //     geometry: {
+            //         type: "Point",
+            //         coordinates: [54.513809, 36.264395]
+            //     }
+            // });
 
 
         myPlacemark = new ymaps.Placemark([54.513809, 36.264395],
             {
                 hintContent: 'ул.Ленина 75/33',
                 balloonContent: 'Ждем вас в нашей студии!'
-            }, {
-            iconLayout: 'default#image',
-            iconImageSize: [30, 42],
-            iconImageOffset: [-5, -38]
-        });
+            });
 
 
-        myMap.geoObjects.add(myGeoObject);
+        // myMap.geoObjects.add(myGeoObject);
         myMap.geoObjects.add(myPlacemark);
 
 
