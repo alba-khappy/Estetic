@@ -452,6 +452,11 @@ h2 {
     background-size: contain;
 }
 
+.footer__link--solidas{
+    color: black;
+    -webkit-color: black;
+}
+
 .map {
     height: 500px;
 }
@@ -488,6 +493,7 @@ h2 {
     text-align: inherit;
     font-family: Gabriela;
     color: white;
+    -webkit-color: white;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -582,6 +588,7 @@ h2 {
         font-size: 20px;
         line-height: 14px;
         margin-top: 20px;
+        -webkit-color: black;
     }
     .mobile-menu {
         display: flex;
