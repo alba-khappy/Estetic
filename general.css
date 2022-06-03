@@ -73,3 +73,13 @@ section>div>button {
     background-color: rgba(74, 170, 165,0);
     border: none;
 }
+
+.footer__link--solidas{
+    color: black;
+    -webkit-color: black;
+}
+
+.footer-p__additional-pages {
+    text-align: center;
+    margin-bottom: 20px;
+}
